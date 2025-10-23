@@ -1,0 +1,89 @@
+header {
+    background-color: red;
+}
+
+main{
+    background-color: green;
+}
+
+footer {
+    background-color: blue;
+}
+
+#zad2 {
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    opacity: 0.8;
+}
+
+#zad2 p {
+    color: green;
+}
+
+#zad2_2 {
+    background-color: black;
+    opacity: 0;
+    width: 300px;
+    height: 200px
+}
+
+#zad2_2 p {
+    color: blue;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    min-height: 60vh;
+    background-size: auto;
+    background: url(https://tappy.pl/wp-content/uploads/2021/08/AdobeStock_258176952-Kopiowanie.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.box {
+    background-image: url(Sigma-Male-meme-6.jpg);
+    width: 300px;
+    height: 150px;
+}
+
+#box1 {
+    background-repeat: no-repeat;
+}
+
+#box2 {
+    background-repeat: repeat-x;
+}
+
+#box3 {
+    background-repeat: repeat;
+}
+
+.pos1 { background-position: left top; }
+.pos2 { background-position: center top; }
+.pos3 { background-position: right top; }
+.pos4 { background-position: left center; }
+.pos5 { background-position: center center; }
+.pos6 { background-position: right center; }
+.pos7 { background-position: left bottom; }
+.pos8 { background-position: center bottom; }
+.pos9 { background-position: right bottom; }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 150px); 
+    grid-template-rows: repeat(3, 150px);
+    gap: 10px; 
+}
+
+.grid div {
+    width: 150px;
+    height: 150px;
+    background-image: url(Sigma-Male-meme-6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
